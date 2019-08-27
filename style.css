@@ -271,7 +271,7 @@ h3 {
 }
 
 .section4 {
-	padding-top: 20px;
+	padding-top: 30px;
 	margin-left: 150px;
 	color:white;
 	float:left;
@@ -408,6 +408,10 @@ h3 {
  color: #c2ad95;
 
 }
+/*.wrapper {
+	width: 1825px;
+	margin: 0 auto;
+}*/
 
 
 
