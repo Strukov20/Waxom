@@ -3,6 +3,8 @@ body {
 	padding: 0;
 	margin: 0;
 	color: #222222;
+	width: 100%;
+	max-width: 1920px;
 }
 
 .clearfix:after {
@@ -35,6 +37,7 @@ header {
 .logo {
 	padding-top: 40px;
 	padding-left: 370px;
+	max-width:100%
 }
 
 #main-nav-wrap, .main-navigation {
@@ -173,6 +176,7 @@ h3 {
 	margin: 0 auto;
 	text-align: center;
 	margin-top: 220px;
+	
 
 }
 
@@ -181,12 +185,16 @@ h3 {
 .slogan_item {
 	margin-bottom: 60px;
 
+
 }
 
 .slogan {
-	width: 280px;
+	max-width: 280px;
+	width: 100%;
 	float: left;
 	text-align: center;
+
+	
 }
 
 .slogan h2 {
@@ -231,6 +239,7 @@ h3 {
       top: 0;
       left: 0;
       width: 100%;
+
 }
 
 .realization {
@@ -244,6 +253,9 @@ h3 {
 	margin-top:; 
 	margin: 70px auto 0px; 
 	text-align: center;
+	max-width: 1230px;
+	width: 100%;
+	
 }
 
 .a123124{
@@ -254,6 +266,8 @@ h3 {
       top: 0;
       left: 0;
       width: 100%;
+
+     
 }
 
 .section4 {
@@ -261,6 +275,8 @@ h3 {
 	margin-left: 150px;
 	color:white;
 	float:left;
+	      
+	 
 }
 
 
@@ -277,6 +293,127 @@ h3 {
 	text-transform: uppercase;
 	font-weight: bold;
 	font-size: 18px;
-	float: 	right;	
+	float: 	right;	      
 	
+	  
+} 
+
+.our-s {
+	max-width: 1920px;
+	width: 100%;
+	padding-top: 40px;
+	text-align: center;
+}
+
+.our {
+	text-align: center;
+	font-size: 32px;
+}
+
+.our-p {
+	text-align: center;
+	font-size: 16px;
+}
+
+.all-button {
+	max-width: 1920px;
+	width: 100%;
+	padding-top: 40px;
+	padding-bottom: 60px;	
+	padding-left: 590px;
+
+}
+
+.button3 {
+	max-width: 120px;
+	width: 100%;
+	float: left;
+	text-align: center;
+	text-decoration: none;
+	font-size: 14px;
+	background: #ffffff;
+	color: #8c8c8c;
+	display: block;
+	margin-left: 10px;
+	padding: 10px 0;
+	border-radius:4px;
+
+	border: 1px solid #ebebeb;
+
+	
+}
+
+.button4 {
+	max-width: 100px;
+	width: 100%;
+	float: left;
+	text-align: center;
+	text-decoration: none;
+	font-size: 14px;
+	background: #998675;
+	color: #ffffff;
+	display: block;
+	margin-left: 10px;
+	padding: 10px 0;
+	border-radius:4px;
+
+	border: 1px solid #ebebeb;
+
+	
+}
+
+.photo6{
+	max-width: 1000px;
+	width: 100%;
+	padding-left: 410px;
+
+}
+
+.button5 {
+	background: #998675;
+	color: white;
+	border-radius:5px;
+	display: block;
+	width:200px;
+	padding: 18px 0;
+	margin: 0 auto;
+	text-decoration:none;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 16px;
+	margin-top: 50px;
+	margin-bottom: 80px;
+		
+}
+
+
+.videoplay {
+	background: url(img/icon-play.png) ;
+	height: 704px;
+	max-width: 1842px;
+	width: 100%;
+	text-align: center;
+}
+
+.video {
+	text-align: center;
+	color: #ededed;
+	padding-top: 350px;
+	font-size: 22px;
+}
+
+.timer {
+ padding-top: 50px;
+ color: #c2ad95;
+
+}
+
+
+
+@media screen and (max-width: 1920px) {
+
+	body {
+		width: 100%;
+	}
 }
