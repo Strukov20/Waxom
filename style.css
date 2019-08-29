@@ -22,7 +22,7 @@ header {
 	background: url(../Waxom/img/back1.jpg) no-repeat center top / cover;
 	
 	height: 100vh;
-
+	
 
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
@@ -34,10 +34,12 @@ header {
 
 
 
+
+
 .logo {
-	padding-top: 40px;
-	padding-left: 370px;
-	max-width:100%
+	padding-top: 50px;
+	padding-left: 270px;
+	width: 150px;
 }
 
 #main-nav-wrap, .main-navigation {
@@ -56,15 +58,17 @@ a.menu-toggle {
 	font-size: 18px;
 	text-transform: uppercase;
 	letter-spacing: 1.5px;
+	display: block;
 	position: absolute;
 	top: 0;
 	right: 80px;
 }
 .main-navigation {
 	min-height: 66px;
-	display: inline-block;
+	display: block;
 	width: auto;
 	text-align: left;
+	
 }
 .main-navigation li {
 	position: relative;
@@ -183,7 +187,9 @@ h3 {
 /* first section*/
 
 .slogan_item {
-	margin-bottom: 60px;
+
+	margin-bottom: 10rem;
+
 
 
 }
@@ -413,9 +419,48 @@ h3 {
 	margin: 0 auto;
 }*/
 
+.footer {
+	background: #4dffb8;
+	height: 100px;
+	width: auto;
+}
+
+#go-top {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	z-index: 600;
+	display: none;
+}
+#go-top a {
+	text-decoration: none;
+	border: 0 none;
+	display: block;
+	height: 66px;
+	width: 60px;
+	line-height: 66px;
+	text-align: center;
+	background: #048a7c;
+	color: #FFFFFF;
+	text-align: center;
+	text-transform: uppercase;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+#go-top a  {
+	font-size: 20px;
+	line-height: inherit;
+}
+#go-top a:hover {
+	background: #ff7b29;
+	color: #FFFFFF;
+}
 
 
-@media screen and (max-width: 1920px) {
+@media screen and (max-width: 1024px) {
 
 	body {
 		width: 100%;
